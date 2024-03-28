@@ -1,0 +1,70 @@
+/* Отчистка лишних отступов */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Подключение шрифта */
+body{
+    font-family: "Comfortaa", sans-serif;
+}
+/* Работа с таблицей с ячейками */
+table{
+    margin: 2%;
+    border-collapse: collapse;
+}
+td{
+    width: 10px;
+    height: 10px;
+    border: 1px solid #ccc;
+}
+/* Работа с цветовым пикером */
+#colorpicker{
+    margin-top: 10px;
+    border: none;
+    background-color: #fff;
+}
+/* Создание отступов */
+h1{
+    text-align: center;
+    margin: 1%;
+}
+/* Работа с формой для создания холста */
+form{
+    padding: 2%;
+    line-height: 40px;
+    font-size: 20px;
+    width: 20%;
+}
+/* Работа с кнопкой создания холста */
+#generate{
+    font-size: 16px;
+    padding: 3% 8%;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(61, 167, 66);
+    color: #fff;
+    font-family: "Comfortaa", sans-serif;
+}
+/* Работа с кнопкой сброса холста */
+#reset{
+    font-size: 16px;
+    margin-left: 2%;
+    padding: 0.5% 1%;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    background-color: red;
+    color: #fff;
+    font-family: "Comfortaa", sans-serif;
+}
+/* Работа input в создании холста */
+.fo{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 1%;
+}
+/* Работа с выбором цвета */
+.col{
+    font-size: 20px;
+    margin-left: 2%;
+}
